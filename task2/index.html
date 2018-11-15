@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather(Boreiko)</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="input-block">
+		<label for="city">Enter city:</label>
+		<input type="text" class="city-input" placeholder="Enter city" autofocus>
+		<button class="button" onclick="search()">Search</button>
+	</div>
+	<div class="weatherCity">
+		<h2 class="city"></h2>
+		<span class="weather"></span>
+		<span class="description"></span>
+		<img class="image" src="" alt=""></img>
+		<ul>
+            <li>Temp: <span class="temp"></span>°C</li>
+            <li>Wind speed: <span class="wind"></span> meter/sec</li>
+            <li>Cloudiness: <span class="cloud"></span> %</li>
+        </ul>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

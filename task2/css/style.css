@@ -1,0 +1,23 @@
+
+body {
+  font-family: sans-serif;
+  background-color: #5DE100;
+  text-align : center ;
+  padding: 50px;
+}
+
+
+h2 {
+  text-transform: uppercase;
+  text-align : center ;
+ }
+
+label {
+  text-transform: uppercase;
+  font-size: 25pt;
+  text-align : center ;
+}
+
+#result {
+  font-size: 25pt;
+}
